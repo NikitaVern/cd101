@@ -1,7 +1,7 @@
 from statistics import mean
 composers = []
 age = []
-n = int(input("Enter number of composers:"))
+n = int(input("Enter number of composers: "))
 for i in range(n):
     com_data = input(f'Enter full name, year of birth and death of composer number {i + 1}: ')
     composers.append(com_data)
